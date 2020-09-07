@@ -27,8 +27,6 @@ namespace WebApplication2.Controllers
                     {
                         return Ok(Obj.Crudoperation.Where(z => z.EmployeeId == id).FirstOrDefault());
                     }
-                   
-                    
                 else 
                 {
                     var datas = Obj.Crudoperation.ToList();
